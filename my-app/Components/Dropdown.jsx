@@ -18,7 +18,7 @@ export default function Dropdown() {
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button className="">
-          <ChevronDownIcon className="absolute bottom-4 top-1 left-1 -400 ml-1 h-4 w-4 text-purple-500" />
+          <ChevronDownIcon className="absolute bottom-4 top-1 left-1 -400 ml-1 h-4 w-4 text-purple-500 mt-1" />
         </Menu.Button>
       </div>
 
@@ -31,7 +31,7 @@ export default function Dropdown() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="absolute left-0 right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
