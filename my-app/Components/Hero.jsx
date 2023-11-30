@@ -70,8 +70,8 @@ function Hero() {
         </h2>
       </div>
 
-      <div>
-        <div className="overflow-y-hidden bg-white">
+      <div className="bg-gradient-to-r from-slate-200 to-slate-300 mt-4 border rounded-md">
+        <div className="overflow-y-hidden">
           <div className="mx-auto container f-f-p px-4 xl:px-0 py-24">
             <h1 className="focus:outline-none text-center text-3xl lg:text-4xl font-extrabold lg:leading-9 tracking-wider text-gray-900">
               How it works?
