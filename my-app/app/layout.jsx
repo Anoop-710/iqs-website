@@ -4,7 +4,8 @@ import Courses from "../Components/Courses";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Features from "../Components/Features";
-// import Testimonials from "./Components/Testimonials";
+import Testimonials from "../Components/Testimonials";
+// import Testimonial from "../Components/Testimonial";
 // import Test from "./Components/Test";
 import Footer from "../Components/Footer";
 import Trainers from "../Components/Trainers";
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
         <Hero />
         <Courses />
         <Features />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <Trainers />
         <Footer />
 

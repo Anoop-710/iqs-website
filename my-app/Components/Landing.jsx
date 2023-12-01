@@ -131,7 +131,7 @@ function Landing() {
         width={500}
         alt=""
       />
-      <div className="mx-auto  max-w-8xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 bg-gradient-to-r from-slate-500 to-slate-800 border rounded-md mt-4">
+      <div className="mx-auto bg-indigo-400 max-w-8xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 bg-darkblue-700 border rounded-md mt-4">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto mb-24 pl-16">
           <h1 className="max-w-lg text-4xl font-bold tracking-tight text-gray-200 sm:text-4xl">
             Rebalance your Tech Skills
